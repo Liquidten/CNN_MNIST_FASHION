@@ -139,7 +139,7 @@ def main():
     plt.plot(model_log.history['val_acc'])
     plt.title('model loss')
     plt.ylabel('loss')
-    plt.xlable('epoch')
+    plt.xlabel('epoch')
     plt.legend(['train','test'], loc ='upper right')
     
     
